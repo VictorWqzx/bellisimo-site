@@ -43,8 +43,7 @@ body { background-color: #fff; color: var(--dark-text); font-family: var(--font-
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
-    margin-bottom: 100px; /* Отступ между товарами */
-    /* Анимация появления */
+    margin-bottom: 100px; 
     opacity: 0;
     transform: translateY(40px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -82,7 +81,7 @@ body { background-color: #fff; color: var(--dark-text); font-family: var(--font-
     .header nav { display: none; }
     .hero-content h1 { font-size: 2.5rem; }
     .section-title { font-size: 2.2rem; margin-bottom: 40px; }
-    /* Перестраиваем товары в одну колонку на мобильных */
+    
     .product-item, .product-item--reversed {
         grid-template-columns: 1fr;
         grid-template-areas: unset;
